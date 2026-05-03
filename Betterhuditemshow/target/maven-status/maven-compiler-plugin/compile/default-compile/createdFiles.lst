@@ -1,0 +1,7 @@
+com\example\betteritem\BetterItemPlugin.class
+com\example\betteritem\PickupListener.class
+com\example\betteritem\DisplayConfig.class
+com\example\betteritem\DisplayConfig$ColorMode.class
+com\example\betteritem\PickupRecord.class
+com\example\betteritem\ItemPlaceholders.class
+com\example\betteritem\ReloadCommand.class

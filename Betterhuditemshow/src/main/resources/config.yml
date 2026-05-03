@@ -1,0 +1,22 @@
+# ==========================================
+# BetterItem 配置文件
+# ==========================================
+
+# 显示设置
+display:
+  # 物品名格式，可用占位符：
+  # %name%    - 物品名字（已根据 color-mode 处理）
+  # %amount%  - 物品数量
+  name-format: "%name% x%amount%"
+
+  # 拾取状态持续时间（秒），超过后 has_picked 变为 false
+  picked-duration: 5
+
+  # 最多记录数量（1~5）
+  max-records: 5
+
+# 颜色处理模式：
+#   strip       - 去除所有颜色字符（§和&），显示纯文本
+#   minimessage - 将颜色字符转换为 MiniMessage 格式（如 <red>），适用于 BetterHud 等支持 MiniMessage 的插件
+#   none        - 不转换颜色字符，保留原始的 § 和 & 符号（若不使用 MiniMessage 插件推荐此模式）
+color-mode: none
